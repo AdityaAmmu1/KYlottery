@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/pdf57170/IdeaProjects/KYlottery/src/test/java/TestCases/KYGames.java">
+        <classes>
+        <class name="TestCases.KYGames"><methods>
+        <include name="a50xthecash"/></methods>
+</class>
+</classes>
+</test>
+</suite>
