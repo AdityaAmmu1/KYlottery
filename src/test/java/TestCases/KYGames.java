@@ -5,8 +5,6 @@ import common.config;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-//import org.sikuli.script.FindFailed;
-//import org.sikuli.script.Screen;
 import org.sikuli.script.FindFailed;
 import org.sikuli.script.Screen;
 import org.testng.annotations.AfterClass;
@@ -22,6 +20,7 @@ public class KYGames extends config {
   public String baseImagePath;
   public WebDriver driver;
 
+
   @BeforeClass(description = "Go to Ky Lottery")
   public void goToKYgames(){
   driver = new config().inizialize_driver();
@@ -33,7 +32,8 @@ public class KYGames extends config {
   }
 
   @Test
-  public void a50xthecash() throws URISyntaxException, FindFailed {
+  public void a50xthecash() throws URISyntaxException, FindFailed
+  {
     KYlotteryPage kYlotteryPage = new KYlotteryPage(driver);
 baseImagePath =resourceFolderURL.toURI().getPath() +kYlotteryPage.a50xthecash;
 driver.get(kYlotteryPage.BaseURL_50xthecash);
@@ -44,5 +44,52 @@ screen.wait(baseImagePath+kYlotteryPage.a50xthecash_increase,20).click();
 screen.wait(baseImagePath+kYlotteryPage.a50xthecash_try,20).click();
 screen.wait(baseImagePath+kYlotteryPage.a50xthecash_revealall,60).click();
 screen.wait(baseImagePath+kYlotteryPage.a50xthecash_try2);
-    }
+  }
+
+    @Test
+  public void bankaBitGameShow() throws URISyntaxException, FindFailed {
+    KYlotteryPage kYlotteryPage = new KYlotteryPage(driver);
+    baseImagePath = resourceFolderURL.toURI().getPath()+kYlotteryPage.bankaBitGameShow;
+    driver.get(kYlotteryPage.BaseURL_bankaBitGameShow);
+    screen.wait(baseImagePath+kYlotteryPage.bankaBitGameShow_audio,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.bankaBitGameShow_ok,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.bankaBitGameShow_decrease,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.bankaBitGameShow_increase,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.bankaBitGameShow_try,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.bankaBitGameShow_autoplay,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.bankaBitGameShow_tryagain,60).click();
+     }
+
+  @Test
+  public void candyCashCane() throws URISyntaxException, FindFailed {
+    KYlotteryPage kYlotteryPage = new KYlotteryPage(driver);
+    baseImagePath = resourceFolderURL.toURI().getPath()+kYlotteryPage.candyCashCane;
+    driver.get(kYlotteryPage.BaseURL_candyCashCane);
+    screen.wait(baseImagePath+kYlotteryPage.candyCashCane_info,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.candyCashCane_audio,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.candyCashCane_ok,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.candyCashCane_decrease,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.candyCashCane_increase,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.candyCashCane_try,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.candyCashCane_revealAll,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.candyCashCane_tryagain,60).click();
+  }
+
+  @Test
+  public void beachBonanza() throws URISyntaxException, FindFailed {
+    KYlotteryPage kYlotteryPage = new KYlotteryPage(driver);
+    baseImagePath = resourceFolderURL.toURI().getPath()+kYlotteryPage.beachBonanza;
+    driver.get(kYlotteryPage.BaseURL_beachBonanza);
+    screen.wait(baseImagePath+kYlotteryPage.beachBonanza_fp,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.beachBonanza_settings,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.beachBonanza_audio,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.beachBonanza_allsounds,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.beachBonanza_ok,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.beachBonanza_decrease,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.beachBonanza_increase,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.beachBonanza_try,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.beachBonanza_autoplay,60).click();
+    screen.wait(baseImagePath+kYlotteryPage.beachBonanza_tryagain,60).click();
+  }
+
 }

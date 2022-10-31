@@ -16,25 +16,25 @@ public class KYlotteryPage extends config {
     //
     public String a50xthecash = "/50xthecash/";
 
-    public String Bankabitgameshow = "/Bankabitgameshow/";
+    public String bankaBitGameShow = "/bankaBitGameShow/";
 
-    public String beachbonanza = "/beachbonanza/";
+    public String beachBonanza = "/beachBonanza/";
 
-    public String candycashcane = "/candycashcane/";
+    public String candyCashCane = "/candyCashCane/";
 
-    public String celticclouds = "/celticclouds/";
+    public String celticClouds = "/celticClouds/";
 
-    public String Davinvidiamonds = "/Davinvidiamonds/";
+    public String davinviDiamonds = "/davinviDiamonds/";
 
-    public String DazzlingDiamondsDeluxe = "/DazzlingDiamondsDeluxe/";
+    public String dazzlingDiamondsDeluxe = "/dazzlingDiamondsDeluxe/";
 
-    public String dragonspawn = "/dragonspawn/";
+    public String dragonSpawn = "/dragonSpawn/";
 
-    public String Dualcrosswordcraze = "/Dualcrosswordcraze/";
+    public String dualCrosswordCraze = "/dualCrosswordCraze/";
 
-    public String EgyptianFortunes = "/EgyptianFortunes/";
+    public String egyptianFortunes = "/egyptianFortunes/";
 
-    public String emoticollect = "/emoticollect/";
+    public String emoticollect = "/emotiCollect/";
 
     public String lilLadyWinningWords = "/lilLadyWinningWords/";
 
@@ -74,67 +74,67 @@ public class KYlotteryPage extends config {
     public String BaseURL_50xthecash = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2184-002&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //Bankabitgameshow
-    public String Bankabitgameshow_audio = "Bankabitgameshow_audio.png";
-    public String Bankabitgameshow_ok = "Bankabitgameshow_ok.png";
-    public String Bankabitgameshow_decrease = "Bankabitgameshow_decrease.png";
-    public String Bankabitgameshow_increase = "Bankabitgameshow_increase.png";
-    public String Bankabitgameshow_try = "Bankabitgameshow_try.png";
-    public String Bankabitgameshow_autoplay = "Bankabitgameshow_autoplay.png";
-    public String Bankabitgameshow_tryagain = "Bankabitgameshow_tryagain.png";
-    public String BaseURL_Bankabitgameshow = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2083-004&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
+    public String bankaBitGameShow_audio = "bankaBitGameShow_audio.png";
+    public String bankaBitGameShow_ok = "bankaBitGameShow_ok.png";
+    public String bankaBitGameShow_decrease = "bankaBitGameShow_decrease.png";
+    public String bankaBitGameShow_increase = "bankaBitGameShow_increase.png";
+    public String bankaBitGameShow_try = "bankaBitGameShow_try.png";
+    public String bankaBitGameShow_autoplay = "bankaBitGameShow_autoplay.png";
+    public String bankaBitGameShow_tryagain = "bankaBitGameShow_tryagain.png";
+    public String BaseURL_bankaBitGameShow = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2083-004&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //beachbonanza
-    public String beachbonanza_fp = "beachbonanza_fp.png";
-    public String beachbonanza_settings = "beachbonanza_settings.png";
-    public String beachbonanza_audio = "beachbonanza_audio.png";
-    public String beachbonanza_allsounds = "beachbonanza_allsounds.png";
-    public String beachbonanza_ok = "beachbonanza_ok.png";
-    public String beachbonanza_decrease = "beachbonanza_decrease.png";
-    public String beachbonanza_increase = "beachbonanza_increase.png";
-    public String beachbonanza_try = "beachbonanza_try.png";
-    public String beachbonanza_autoplay = "beachbonanza_autoplay.png";
-    public String beachbonanza_tryagain = "beachbonanza_tryagain.png";
-    public String BaseURL_beachbonanza = "";
+    public String beachBonanza_fp = "beachBonanza_fp.png";
+    public String beachBonanza_settings = "beachBonanza_settings.png";
+    public String beachBonanza_audio = "beachBonanza_audio.png";
+    public String beachBonanza_allsounds = "beachBonanza_allsounds.png";
+    public String beachBonanza_ok = "beachBonanza_ok.png";
+    public String beachBonanza_decrease = "beachBonanza_decrease.png";
+    public String beachBonanza_increase = "beachBonanza_increase.png";
+    public String beachBonanza_try = "beachBonanza_try.png";
+    public String beachBonanza_autoplay = "beachBonanza_autoplay.png";
+    public String beachBonanza_tryagain = "beachBonanza_tryagain.png";
+    public String BaseURL_beachBonanza = "";
 
     //candycashcane
-    public String candycashcane_info = "candycashcane_info.png";
-    public String candycashcane_audio = "candycashcane_audio.png";
-    public String candycashcane_ok = "candycashcane_ok.png";
-    public String candycashcane_decrease = "candycashcane_decrease.png";
-    public String candycashcane_increase = "candycashcane_increase.png";
-    public String candycashcane_try = "candycashcane_try.png";
-    public String candycashcane_revealAll = "candycashcane_revealAll.png";
-    public String candycashcane_tryagain = "candycashcane_tryagain.png";
-    public String BaseURL_candycashcane = "";
+    public String candyCashCane_info = "candyCashCane_info.png";
+    public String candyCashCane_audio = "candyCashCane_audio.png";
+    public String candyCashCane_ok = "candyCashCane_ok.png";
+    public String candyCashCane_decrease = "candyCashCane_decrease.png";
+    public String candyCashCane_increase = "candyCashCane_increase.png";
+    public String candyCashCane_try = "candyCashCane_try.png";
+    public String candyCashCane_revealAll = "candyCashCane_revealAll.png";
+    public String candyCashCane_tryagain = "candyCashCane_tryagain.png";
+    public String BaseURL_candyCashCane = "";
 
-    //celticclouds
-    public String celticclouds_info = "celticclouds_info.png";
-    public String celticlouds_audio = "celticlouds_audio.png";
-    public String celticlouds_ok = "celticlouds_ok.png";
-    public String celticlouds_increase = "celticlouds_increase.png";
-    public String celticlouds_try = "celticlouds_try.png";
-    public String celticlouds_revealAll = "celticlouds_revealAll.png";
-    public String celticlouds_try2 = "celticlouds_try2.png";
-    public String BaseURL_celticlouds = "";
+    //celticClouds
+    public String celticClouds_info = "celticClouds_info.png";
+    public String celtiClouds_audio = "celticlouds_audio.png";
+    public String celtiClouds_ok = "celticlouds_ok.png";
+    public String celtiClouds_increase = "celticlouds_increase.png";
+    public String celtiClouds_try = "celticlouds_try.png";
+    public String celtiClouds_revealAll = "celticlouds_revealAll.png";
+    public String celtiClouds_try2 = "celticlouds_try2.png";
+    public String BaseURL_celtiClouds = "";
 
-    //Davinvidiamonds
+    //davinviDiamonds
     //public String Davinvidiamonds_info = "Davinvidiamonds_info.png";
-    public String Davinvidiamonds_audio = "Davinvidiamonds_audio.png";
-    public String Davinvidiamonds_ok = "Davinvidiamonds_ok.png";
-    public String Davinvidiamonds_increase = "Davinvidiamonds_increase.png";
-    public String Davinvidiamonds_try = "Davinvidiamonds_try.png";
-    public String Davinvidiamonds_revealAll = "Davinvidiamonds_revealAll.png";
-    public String Davinvidiamonds_try2 = "Davinvidiamonds_try2.png";
-    public String BaseURL_Davinvidiamonds = "";
+    public String davinviDiamonds_audio = "davinviDiamonds_audio.png";
+    public String davinviDiamonds_ok = "davinviDiamonds_ok.png";
+    public String davinviDiamonds_increase = "davinviDiamonds_increase.png";
+    public String davinviDiamonds_try = "davinviDiamonds_try.png";
+    public String davinviDiamonds_revealAll = "davinviDiamonds_revealAll.png";
+    public String davinviDiamonds_try2 = "davinviDiamonds_try2.png";
+    public String BaseURL_davinviDiamonds = "";
 
-    //DazzlingDiamondDeluxe
-    public String DazzlingDiamondDeluxe_info = "DazzlingDiamondDeluxe_info.png";
-    public String DazzlingDiamondDeluxe_audio = "DazzlingDiamondDeluxe_audio.png";
-    public String DazzlingDiamondDeluxe_ok = "DazzlingDiamondDeluxe_ok.png";
-    public String DazzlingDiamondDeluxe_increase = "DazzlingDiamondDeluxe_increase.png";
-    public String DazzlingDiamondDeluxe_try ="DazzlingDiamondDeluxe_try.png";
-    public String DazzlingDiamondDeluxe_revealAll = "DazzlingDiamondDeluxe_revealAll.png";
-    public String DazzlingDiamondDeluxe_try2 = "DazzlingDiamondDeluxe_try.png";
+    //dazzlingDiamondDeluxe
+    public String dazzlingDiamondDeluxe_info = "dazzlingDiamondDeluxe_info.png";
+    public String dazzlingDiamondDeluxe_audio = "dazzlingDiamondDeluxe_audio.png";
+    public String dazzlingDiamondDeluxe_ok = "dazzlingDiamondDeluxe_ok.png";
+    public String dazzlingDiamondDeluxe_increase = "dazzlingDiamondDeluxe_increase.png";
+    public String dazzlingDiamondDeluxe_try ="dazzlingDiamondDeluxe_try.png";
+    public String dazzlingDiamondDeluxe_revealAll = "dazzlingDiamondDeluxe_revealAll.png";
+    public String dazzlingDiamondDeluxe_try2 = "dazzlingDiamondDeluxe_try.png";
     public String BaseURL_DazzlingDiamondDeluxe = "";
 
     //dragonSpawn
