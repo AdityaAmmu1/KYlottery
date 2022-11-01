@@ -3,6 +3,8 @@ package TestCases;
 import PageObject.KYlotteryPage;
 import common.config;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.sikuli.script.FindFailed;
@@ -19,6 +21,7 @@ public class KYGames extends config {
   URL resourceFolderURL =this.getClass().getClassLoader().getResource("images");
   public String baseImagePath;
   public WebDriver driver;
+  public static Logger logger = LogManager.getLogger(KYGames.class);
 
 
   @BeforeClass(description = "Go to Ky Lottery")
@@ -34,16 +37,17 @@ public class KYGames extends config {
   @Test
   public void a50xthecash() throws URISyntaxException, FindFailed
   {
+
     KYlotteryPage kYlotteryPage = new KYlotteryPage(driver);
 baseImagePath =resourceFolderURL.toURI().getPath() +kYlotteryPage.a50xthecash;
 driver.get(kYlotteryPage.BaseURL_50xthecash);
-screen.wait(baseImagePath+kYlotteryPage.a50xthecash_info,60).click();
+screen.wait(baseImagePath+kYlotteryPage.a50xthecash_info,100).click();
 screen.wait(baseImagePath+kYlotteryPage.a50xthecash_audio,60).click();
 screen.wait(baseImagePath+kYlotteryPage.a50xthecash_close,20).click();
 screen.wait(baseImagePath+kYlotteryPage.a50xthecash_increase,20).click();
 screen.wait(baseImagePath+kYlotteryPage.a50xthecash_try,20).click();
 screen.wait(baseImagePath+kYlotteryPage.a50xthecash_revealall,60).click();
-screen.wait(baseImagePath+kYlotteryPage.a50xthecash_try2);
+screen.wait(baseImagePath+kYlotteryPage.a50xthecash_try2,30);
   }
 
     @Test
