@@ -40,6 +40,8 @@ public class KYlotteryPage extends config {
 
     public String loteria = "/loteria/";
 
+    public String luckys7 = "/luckys7/";
+
     public String siberianStorm = "/siberianStorm/";
 
     public String silverStarSuperme = "/silverStarSuperme/";
@@ -68,7 +70,7 @@ public class KYlotteryPage extends config {
     public String a50xthecash_decrease = "50xthecash_decrease";
     public String a50xthecash_increase = "50xthecash_increase.png";
     public String a50xthecash_info = "50xthecash_info.png";
-    public String a50xthecash_revealall = "50xthecash_revealall.png";
+    public String a50xthecash_revealAll = "50xthecash_revealall.png";
     public String a50xthecash_try = "50xthecash_try.png";
     public String a50xthecash_try2 = "50xthecash_try2.png";
     public String BaseURL_50xthecash = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2184-002&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
@@ -94,7 +96,7 @@ public class KYlotteryPage extends config {
     public String beachBonanza_try = "beachBonanza_try.png";
     public String beachBonanza_autoplay = "beachBonanza_autoplay.png";
     public String beachBonanza_tryagain = "beachBonanza_tryagain.png";
-    public String BaseURL_beachBonanza = "";
+    public String BaseURL_beachBonanza = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2231-004&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //candycashcane
     public String candyCashCane_info = "candyCashCane_info.png";
@@ -105,17 +107,17 @@ public class KYlotteryPage extends config {
     public String candyCashCane_try = "candyCashCane_try.png";
     public String candyCashCane_revealAll = "candyCashCane_revealAll.png";
     public String candyCashCane_tryagain = "candyCashCane_tryagain.png";
-    public String BaseURL_candyCashCane = "";
+    public String BaseURL_candyCashCane = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2218-001&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //celticClouds
-    public String celticClouds_info = "celticClouds_info.png";
-    public String celtiClouds_audio = "celticlouds_audio.png";
-    public String celtiClouds_ok = "celticlouds_ok.png";
-    public String celtiClouds_increase = "celticlouds_increase.png";
-    public String celtiClouds_try = "celticlouds_try.png";
-    public String celtiClouds_revealAll = "celticlouds_revealAll.png";
-    public String celtiClouds_try2 = "celticlouds_try2.png";
-    public String BaseURL_celtiClouds = "";
+    public String celticClouds_info = "celtiClouds_info.png";
+    public String celtiClouds_audio = "celtiClouds_audio.png";
+    public String celtiClouds_ok = "celtiClouds_ok.png";
+    public String celtiClouds_increase = "celtiClouds_increase.png";
+    public String celtiClouds_try = "celtiClouds_try.png";
+    public String celtiClouds_revealAll = "celtiClouds_revealAll.png";
+    public String celtiClouds_try2 = "celtiClouds_try2.png";
+    public String BaseURL_celtiClouds = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2144-004&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //davinviDiamonds
     //public String Davinvidiamonds_info = "Davinvidiamonds_info.png";
@@ -125,7 +127,7 @@ public class KYlotteryPage extends config {
     public String davinviDiamonds_try = "davinviDiamonds_try.png";
     public String davinviDiamonds_revealAll = "davinviDiamonds_revealAll.png";
     public String davinviDiamonds_try2 = "davinviDiamonds_try2.png";
-    public String BaseURL_davinviDiamonds = "";
+    public String BaseURL_davinviDiamonds = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2100-004&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //dazzlingDiamondDeluxe
     public String dazzlingDiamondDeluxe_info = "dazzlingDiamondDeluxe_info.png";
@@ -135,7 +137,7 @@ public class KYlotteryPage extends config {
     public String dazzlingDiamondDeluxe_try ="dazzlingDiamondDeluxe_try.png";
     public String dazzlingDiamondDeluxe_revealAll = "dazzlingDiamondDeluxe_revealAll.png";
     public String dazzlingDiamondDeluxe_try2 = "dazzlingDiamondDeluxe_try.png";
-    public String BaseURL_DazzlingDiamondDeluxe = "";
+    public String BaseURL_DazzlingDiamondDeluxe = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2176-006&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //dragonSpawn
     public String dragonSpawn_fp = "dragonSpawn_fp.png";
@@ -148,7 +150,7 @@ public class KYlotteryPage extends config {
     public String dragonSpawn_try = "dragonSpawn_try.png";
    // public String dragonSpawn_autoplay = "dragonSpawn_autoplay.png";
     public String dragonSpawn_tryagain = "dragonSpawn_tryagain.png";
-    public String BaseURL_dragonSpawn = "";
+    public String BaseURL_dragonSpawn = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2228-002&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //dualCrossWordCraze
     public String dualCrossWordCraze_audio = "dragonSpawn_audio.png";
@@ -206,7 +208,7 @@ public class KYlotteryPage extends config {
     public String extremeCashSpectacular_decrease = "extremeCashSpectacular_decrease.png";
     public String extremeCashSpectacular_increase = "extremeCashSpectacular_increase.png";
     public String extremeCashSpectacular_try = "extremeCashSpectacular_try.png";
-    public String extremeCashSpectacular_revealall = "extremeCashSpectacular_revealall.png";
+    public String extremeCashSpectacular_revealAll = "extremeCashSpectacular_revealAll.png";
     public String BaseURL_extremeCashSpectacular = "";
 
     //fiveCardCash
@@ -227,7 +229,7 @@ public class KYlotteryPage extends config {
     public String fortuneFest_decrease = "fortuneFest_decrease.png";
     public String fortuneFest_increase = "fortuneFest_increase.png";
     public String fortuneFest_try = "fortuneFest_try.png";
-    public String fortuneFest_revealall = "fortuneFest_revealall.png";
+    public String fortuneFest_revealAll = "fortuneFest_revealAll.png";
     //public String fortuneFest_try2 = "fiveCardCash_try2.png";
     public String BaseURL_fortuneFest = "";
 
@@ -251,7 +253,7 @@ public class KYlotteryPage extends config {
     public String loteria_decrease = "loteria_decrease.png";
     public String loteria_increase = "loteria_increase.png";
     public String loteria_try = "loteria_try.png";
-    public String loteria_revealall = "loteria_revealall.png";
+    public String loteria_revealAll = "loteria_autoplay.png";
     public String loteria_tryagain = "loteria_tryagain.png";
     public String BaseURL_loteria ="https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2099-006&channel=INT&presenttype=ST&technology=HTML&nscode=KYLT&skincode=KY01";
 
@@ -259,11 +261,11 @@ public class KYlotteryPage extends config {
 
     public String luckys7_info = "luckys7_info.png";
     public String luckys7_audio = "luckys7_audio.png";
-    public String luckys7_ok = "luckys7_ok.png";
+    public String luckys7_close = "luckys7_close.png";
     public String luckys7_decrease = "luckys7_decrease.png";
     public String luckys7_increase = "luckys7_increase.png";
     public String luckys7_try = "luckys7_try.png";
-    public String luckys7_revealall = "luckys7_revealall.png";
+    public String luckys7_revealAll = "luckys7_revealAll.png";
     public String luckys7_tryagain = "luckys7_tryagain.png";
     public String BaseURL_luckys7 ="https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2096-005&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
@@ -275,7 +277,7 @@ public class KYlotteryPage extends config {
     public String merryLittleCashMas_decrease = "merryLittleCashMas_decrease.png";
     public String merryLittleCashMas_increase = "merryLittleCashMas_increase.png";
     public String merryLittleCashMas_try = "merryLittleCashMas_try.png";
-    public String merryLittleCashMas_revealall = "merryLittleCashMas_revealall.png";
+    public String merryLittleCashMas_revealAll = "merryLittleCashMas_revealAll.png";
     public String merryLittleCashMas_tryagain = "merryLittleCashMas_tryagain.png";
     public String BaseURL_merryLittleCashMas ="https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2154-002&channel=INT&presenttype=ST&technology=HTML&nscode=KYLT&skincode=KY01";
 
@@ -287,7 +289,7 @@ public class KYlotteryPage extends config {
     public String midasMatch_decrease = "midasMatch_decrease.png";
     public String midasMatch_increase = "midasMatch_increase.png";
     public String midasMatch_try = "midasMatch_try.png";
-    public String midasMatch_revealall = "midasMatch_revealall.png";
+    public String midasMatch_revealAll = "midasMatch_revealAll.png";
     public String BaseURL_midasMatch = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2166-006&channel=INT&presenttype=ST&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //moneyBank
@@ -298,7 +300,7 @@ public class KYlotteryPage extends config {
     public String moneyBank_decrease = "moneyBank_decrease.png";
     public String moneyBank_increase = "moneyBank_increase.png";
     public String moneyBank_try = "moneyBank_try.png";
-    public String moneyBank_revealall = "moneyBank_revealall.png";
+    public String moneyBank_revealAll = "moneyBank_revealAll.png";
     public String BaseURL_moneyBank ="https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2083-004&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //moneyIsland
@@ -308,7 +310,7 @@ public class KYlotteryPage extends config {
     public String moneyIsland_decrease = "moneyIsland_decrease.png";
     public String moneyIsland_increase = "moneyIsland_increase.png";
     public String moneyIsland_try = "moneyIsland_try.png";
-    public String moneyIsland_revealall = "moneyIsland_revealall.png";
+    public String moneyIsland_revealAll = "moneyIsland_revealAll.png";
     public String BaseURL_moneyIsland ="https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2179-005&channel=INT&presenttype=ST&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //moneyMiner
@@ -332,7 +334,7 @@ public class KYlotteryPage extends config {
     public String moneyStrike_decrease = "moneyStrike_decrease.png";
     public String moneyStrike_increase = "moneyStrike_increase.png";
     public String moneyStrike_try = "moneyStrike_try.png";
-    public String moneyStrike_revealall = "moneyStrike_revealall.png";
+    public String moneyStrike_revealAll = "moneyStrike_revealAll.png";
     public String BaseURL_moneyStrike ="https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2160-005&channel=INT&presenttype=ST&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //multiplyTheCash
@@ -342,7 +344,7 @@ public class KYlotteryPage extends config {
     public String multiplyTheCash_decrease = "multiplyTheCash_decrease.png";
     public String multiplyTheCash_increase = "multiplyTheCash_increase.png";
     public String multiplyTheCash_try = "multiplyTheCash_try.png";
-    public String multiplyTheCash_revealall = "multiplyTheCash_revealall.png";
+    public String multiplyTheCash_revealAll = "multiplyTheCash_revealAll.png";
     public String multiplyTheCash_tryagain = "multiplyTheCash_tryagain.png";
     public String BaseURL_multiplyTheCash ="https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2134-006&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
@@ -366,7 +368,7 @@ public class KYlotteryPage extends config {
     public String piratesAndPlanks_decrease = "piratesAndPlanks_decrease.png";
     public String piratesAndPlanks_increase = "piratesAndPlanks_increase.png";
     public String piratesAndPlanks_try = "piratesAndPlanks_try.png";
-    public String piratesAndPlanks_revealall = "piratesAndPlanks_revealall.png";
+    public String piratesAndPlanks_revealAll = "piratesAndPlanks_revealAll.png";
     public String BaseURL_piratesAndPlanks="https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2238-001&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
     //potsOfPlenty
@@ -393,7 +395,7 @@ public class KYlotteryPage extends config {
     public String siberianStorm_decrease = "siberianStorm_decrease.png";
     public String siberianStorm_increase = "siberianStorm_increase.png";
     public String siberianStorm_try = "siberianStorm_try.png";
-    public String siberianStorm_revealall = "siberianStorm_revealall.png";
+    public String siberianStorm_revealAll = "siberianStorm_revealAll.png";
     public String siberianStorm_tryagain = "siberianStorm_tryagain.png";
     public String BaseURL_siberianStorm = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2182-003&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
@@ -404,7 +406,7 @@ public class KYlotteryPage extends config {
     public String silverStarSuperme_decrease = "silverStarSuperme_decrease.png";
     public String silverStarSuperme_increase = "silverStarSuperme_increase.png";
     public String silverStarSuperme_try = "silverStarSuperme_try.png";
-    public String silverStarSuperme_revealall = "silverStarSuperme_revealall.png";
+    public String silverStarSuperme_revealAll = "silverStarSuperme_revealAll.png";
     public String silverStarSuperme_tryagain = "silverStarSuperme_tryagain.png";
     public String BaseURL_silverStarSuperme ="https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2178-003&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
@@ -470,7 +472,7 @@ public class KYlotteryPage extends config {
     public String vipGoldGrant_decrease = "vipGoldGrant_decrease.png";
     public String vipGoldGrant_increase = "vipGoldGrant_increase.png";
     public String vipGoldGrant_try = "vipGoldGrant_try.png";
-    public String vipGoldGrant_revealall = "vipGoldGrant_revealall.png";
+    public String vipGoldGrant_revealAll = "vipGoldGrant_revealAll.png";
     public String BaseURL_vipGoldGrant = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2188-004&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
 //volcanoCash
@@ -478,7 +480,7 @@ public class KYlotteryPage extends config {
     public String volcanoCash_fp = "volcanoCash_fp.png";
     public String volcanoCash_setting = "volcanoCash_setting.png";
     public String volcanoCash_audio = "volcanoCash_audio.png";
-    public String volcanoCash_allsound = "volcanoCash_allsound.png";
+    public String volcanoCash_allsound = "volcanoCash_allsounds.png";
     public String volcanoCash_ok = "volcanoCash_ok.png";
     public String volcanoCash_decrease = "volcanoCash_decrease.png";
     public String volcanoCash_increase = "volcanoCash_increase.png";
@@ -494,7 +496,7 @@ public class KYlotteryPage extends config {
     public String wilds8_decrease = "wilds8_decrease.png";
     public String wilds8_increase = "wilds8_increase.png";
     public String wilds8_try = "wilds8_try.png";
-    public String wilds8_revealall = "wilds8_revealall.png";
+    public String wilds8_revealAll = "wilds8_revealAll.png";
     public String BaseURL_wilds8 = "https://rgs-azsit01.lab.wagerworks.com/skb/gateway?currencycode=USD&countrycode=US&locale=en_US&wagerType=TRY&language=en_EN&softwareid=300-2174-003&channel=INT&presenttype=STD&technology=HTML&nscode=KYLT&skincode=KY01";
 
 

@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/pdf57170/IdeaProjects/KYlottery/src/test/java/TestCases/KYGames.java">
+    <test verbose="2" preserve-order="true"  name="C:\Users\kbf27681\IdeaProjects\KYlottery">
         <classes>
-        <class name="TestCases.KYGames"><methods>
-        <include name="a50xthecash"/></methods>
+        <class name="TestCases.KYGames">
+        <methods>
+        <include name="volcanoCash"/>
+        <include name="ticTacTemple"/>
+        <include name="silverStarSuperme"/>
+        <include name="luckys7"/>
+        <include name="loteria"/>
+        <include name="celticClouds"/>
+        <include name="candyCashCane"/>
+        <include name="beachBonanza"/>
+        <include name="bankaBitGameShow"/>
+        <include name="a50xthecash"/>
+        </methods>
 </class>
 </classes>
 </test>
